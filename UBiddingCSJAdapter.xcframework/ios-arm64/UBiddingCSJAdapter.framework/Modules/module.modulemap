@@ -1,0 +1,6 @@
+framework module UBiddingCSJAdapter {
+  umbrella header "UBiddingCSJAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
