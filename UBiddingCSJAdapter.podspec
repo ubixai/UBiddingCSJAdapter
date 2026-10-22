@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiddingCSJAdapter'
-  s.version          = '7.8.0.7.0'
+  s.version          = '7.8.0.7.1'
   s.summary          = 'UBiddingCSJAdapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   s.author           = { 'zhugq' => 'guoqiang.zhu@ubixai.com' }
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.vendored_frameworks = 'UBiddingCSJAdapter.xcframework'
 
-  s.dependency 'Ads-CN-Beta', '7.8.0.7'
+  s.dependency 'Ads-CN', '7.8.0.7'
   s.dependency 'UBiddingAdSDK'
 end
